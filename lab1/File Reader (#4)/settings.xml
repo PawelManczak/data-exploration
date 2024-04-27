@@ -41,7 +41,20 @@
 <entry key="DontRem" type="xboolean" value="false"/>
 </config>
 </config>
-<config key="Comments"/>
+<config key="Comments">
+<config key="Comment0">
+<entry key="begin" type="xstring" value="/*"/>
+<entry key="end" type="xstring" value="*/"/>
+<entry key="includeInToken" type="xboolean" value="false"/>
+<entry key="returnAsToken" type="xboolean" value="false"/>
+</config>
+<config key="Comment1">
+<entry key="begin" type="xstring" value="//"/>
+<entry key="end" type="xstring" value="%%00010"/>
+<entry key="includeInToken" type="xboolean" value="false"/>
+<entry key="returnAsToken" type="xboolean" value="false"/>
+</config>
+</config>
 <config key="WhiteSpaces">
 <entry key="WhiteSpace0" type="xstring" value=" "/>
 <entry key="WhiteSpace1" type="xstring" value="%%00009"/>
@@ -68,7 +81,7 @@
 <entry key="acceptShortLines" type="xboolean" value="false"/>
 <entry key="uniquifyRowID" type="xboolean" value="false"/>
 <entry key="MaxNumOfRows" type="xlong" value="-1"/>
-<entry key="ColNumDetermLine" type="xint" value="-1"/>
+<entry key="ColNumDetermLine" type="xint" value="2"/>
 <entry key="CharsetName" type="xstring" isnull="true" value=""/>
 <entry key="ConnectTimeoutInSeconds" type="xint" value="1"/>
 <entry key="delimsAtEOLuserVal" type="xboolean" value="false"/>
@@ -187,6 +200,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="69194078-776d-4c84-a11a-bf092c8083a9"/>
+<entry key="file_store_id" type="xstring" value="188f3cfc-8ed1-4810-886b-bb568cd18bf0"/>
 </config>
 </config>
